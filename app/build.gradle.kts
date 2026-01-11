@@ -66,6 +66,10 @@ dependencies {
     // ViewModel用のHiltライブラリ
     implementation(libs.androidx.hilt.navigation.compose)
 
+    implementation("androidx.compose.ui:ui:1.0.0")
+    implementation("androidx.activity:activity-compose:1.3.0")
+    implementation("androidx.compose.material:material:1.0.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
